@@ -16,7 +16,7 @@ public class Engine {
         System.out.println("Mesin dihidupkan");
     }
     public void off(){
-        System.out.println("Mesin dihidupkan");
+        System.out.println("Mesin dimatikankan");
 
     }
 
