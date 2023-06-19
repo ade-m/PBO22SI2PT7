@@ -1,34 +1,20 @@
 package model;
 
 public class Mobil {
-    private Engine engine;
+    private String merkEngine;
     private int status;
 
     public Mobil() {
-        engine = new Engine();
-    }
-
-    public Mobil(Engine engine, int status) {
-        this.engine = engine;
-        this.status = status;
     }
 
     public void start(){
-        engine.on();
+       
     }
     public void stop(){
-        engine.off();
+       
     }
     public void run(){
         System.out.println("Mobil berjalan");
-    }
-
-    public Engine getEngine() {
-        return this.engine;
-    }
-
-    public void setEngine(Engine engine) {
-        this.engine = engine;
     }
 
     public int getStatus() {
@@ -37,6 +23,14 @@ public class Mobil {
 
     public void setStatus(int status) {
         this.status = status;
+    }
+
+    public String getMerkEngine() {
+        return this.merkEngine;
+    }
+
+    public void setMerkEngine(String merkEngine) {
+        this.merkEngine = merkEngine;
     }
     
 }
